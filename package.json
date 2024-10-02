@@ -1,0 +1,19 @@
+{
+  "name": "comp2406a2",
+  "version": "1.0.0",
+  "description": "node.js + socket + chessboard.js chess app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cub",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.21.0",
+    "ws": "^5.2.1"
+  },
+  "keywords": []
+}
